@@ -18,5 +18,5 @@ class Worker:
 
     def work(self):
         path = self.helper.get_path()
-        print(f'Working on {path}')
+        print('Working on {}'.format(path))
         return path

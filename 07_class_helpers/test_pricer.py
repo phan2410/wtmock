@@ -1,4 +1,5 @@
-from unittest import TestCase, mock, expectedFailure
+from unittest import TestCase, expectedFailure
+import mock
 from pricer import CountryPricer
 
 

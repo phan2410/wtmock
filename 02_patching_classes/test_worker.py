@@ -1,4 +1,5 @@
-from unittest import TestCase, mock
+from unittest import TestCase
+import mock
 
 from worker import Worker, Helper
 

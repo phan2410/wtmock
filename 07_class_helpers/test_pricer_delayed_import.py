@@ -1,5 +1,6 @@
-from unittest import TestCase, mock, expectedFailure
+from unittest import TestCase, expectedFailure
 # not importing `pricer`
+import mock
 
 class TestCountryPrices(TestCase):
 

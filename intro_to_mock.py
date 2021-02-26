@@ -1,4 +1,4 @@
-from unittest import mock
+import mock
 
 m = mock.Mock()
 assert isinstance(m.foo, mock.Mock)
